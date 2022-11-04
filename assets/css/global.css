@@ -1,0 +1,90 @@
+
+*{
+    font-family:sans-serif;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(22, 41, 108), rgb(101, 2, 171));
+    width: 100%;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.perfil-img {
+    width: 200px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid rgb(199, 196, 196);
+}
+
+.perfil-img img{
+    border-radius: 600px;
+    padding:3px;
+    margin-top: 60px;
+    transition: 1s;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 2px solid rgb(5, 8, 57);
+    width: 150px;
+}
+
+.perfil-img, .insta a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(230, 222, 222);
+    font-size: 24px;
+    transition: 1s;
+}
+
+.content-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    background-color: rgba(108, 78, 149, 0.319);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 200px;
+    height: 150px;
+    border-radius: 40px;
+    transition: 1s;
+    box-shadow: 1px solid rgb(0, 0, 0);
+}
+
+.perfil-img img:hover {
+    border-radius: 700px;
+    padding:4px;
+    margin-top: 20px;
+    border: 3px solid rgb(5, 8, 57);
+    width: 190px;
+}
+
+
+.perfil-img, .insta a:hover{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(239, 227, 227);
+    font-size: 29px;
+}
+
+.content-links img:hover{
+    width: 60px;
+}
+
+.content-links:hover {
+    background-color: rgba(108, 78, 149, 0.319);
+    width: 250px;
+    height: 180px;
+    border-radius: 60px;
+
+}
