@@ -4,8 +4,9 @@
 }
 
 body {
-    background-image: linear-gradient(120deg, rgb(22, 41, 108), rgb(101, 2, 171));
+    background-color: rgb(41, 29, 59);
     width: 100%;
+    height: 100%;
 }
 
 .content {
@@ -19,15 +20,16 @@ body {
 .perfil-img {
     width: 200px;
     margin-bottom: 40px;
-    border-bottom: 1px solid rgb(199, 196, 196);
+    border-bottom: 1px solid rgb(226, 226, 226);
 }
 
 .perfil-img img{
     border-radius: 600px;
     padding:3px;
     margin-top: 60px;
+    transition: 1s;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border: 2px solid rgb(5, 8, 57);
+    border: 2px solid rgb(52, 57, 124);
     width: 150px;
 }
 
@@ -39,6 +41,7 @@ body {
     text-decoration: none;
     color: rgb(230, 222, 222);
     font-size: 24px;
+    transition: 1s;
 }
 
 .content-links {
@@ -47,7 +50,7 @@ body {
     align-items: center;
     text-align: center;
     margin: 0 auto;
-    background-color: rgba(108, 78, 149, 0.319);
+    background-color: rgba(87, 24, 174, 0.352);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 200px;
     height: 150px;
@@ -56,14 +59,12 @@ body {
     box-shadow: 1px solid rgb(0, 0, 0);
 }
 
-}
-
 .content-links img:hover{
     width: 60px;
 }
 
 .content-links:hover {
-    background-color: rgba(108, 78, 149, 0.319);
+    background-color: rgba(93, 7, 212, 0.319);
     width: 250px;
     height: 180px;
     border-radius: 60px;
