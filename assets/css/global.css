@@ -22,28 +22,19 @@ body {
 }
 
 .perfil-img {
-    margin-top: 60px;
     width: 380px;
     border-bottom: 1px solid rgba(226, 226, 226, 0.808);
 }
 
 .perfil-img img{
+    margin-top: 60px;
+    margin-bottom: 20px;
     border-radius: 600px;
     padding:3px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border: 2px solid rgb(82, 7, 255);
-    width: 150px;
-}
-
-.perfil-img, .insta a{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    text-decoration: none;
-    color: rgba(230, 222, 222, 0.671);
-    font-size: 18px;
-    transition: 1s;
+    width: 100px;
+    height: 100px;
 }
 
 .content-projects{
@@ -73,4 +64,9 @@ body {
 .projects a:hover{
     opacity: 1;
     transition: 0.7s;
+}
+
+.content-social img{
+    width: 40px;
+    height: 40px;
 }
